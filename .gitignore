@@ -8,6 +8,7 @@
 *.vcxproj.*
 *.rc
 *.VC.db
+resource.h
 
 # Build results
 x64/
