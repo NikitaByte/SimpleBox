@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Material" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAACAAAAAAECAAAAAAAAAAAAQABAQCAQAEAgEAEAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolidMaterial" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolidUnmovableMaterial" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolidMovableMaterial" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LiquidMaterial" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GaseousMaterial" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAACAAAAAEAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SandMaterial" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StoneMaterial" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirtMaterial" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterMaterial" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrickMaterial" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OilMaterial" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmokeMaterial" Collapsed="true">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmptyMaterial" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Materials.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

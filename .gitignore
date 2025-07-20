@@ -1,0 +1,18 @@
+# Visual Studio
+*.vs
+*.sln
+*.vcxproj*
+*.user
+*.aps
+*.obj
+*.pdb
+*.exe
+*.log
+*.vcxproj.*
+/x64/
+/Debug/
+/Release/
+.vscode/
+CMakeFiles/
+CMakeCache.txt
+build/
