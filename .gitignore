@@ -8,6 +8,9 @@
 *.vcxproj.*
 *.rc
 *.VC.db
+
+# Individual files
+RCa11752
 resource.h
 
 # Build results
