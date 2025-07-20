@@ -1,7 +1,11 @@
 # Visual Studio
 .vs/
+*.sln
+*.vcxproj*
 *.user
+*.aps
 *.suo
+*.vcxproj.*
 *.VC.db
 
 # Build results
