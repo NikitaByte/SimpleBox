@@ -1,38 +1,50 @@
 # Visual Studio
 .vs/
-*.sln
 *.vcxproj*
+*.sln
 *.user
 *.aps
-*.suo
-*.vcxproj.*
-*.rc
-*.VC.db
-
-# Individual files
-RCa11752
-resource.h
-
-# Build results
-x64/
-x86/
-Debug/
-Release/
-*.exe
-*.dll
+*.ncb
+*.opendb
 *.obj
+*.log
 *.pdb
 *.idb
-*.ipch
-*.cache
-*.log
 
 # CMake
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
+CMakeSettings.json
+CMakeUserPresets.json
+CMakePresets.json
+Testing/
+compile_commands.json
 
-# SFML binaries
-SFML-*/bin/
-SFML-*/lib/
+# Output folders
+out/
+build/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# Others
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*.sublime*
+*.code-workspace
+.vscode/
