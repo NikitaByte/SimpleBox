@@ -1,4 +1,4 @@
-# SimpleBox
+# SimpleBox (C++ / SFML)
 **SimpleBox** is a 2D sandbox inspired by games like *sand:box* or *The Powder Toy*, where the player can interact with different materials - sand, water, rocks, soil, etc. - in a pixelated world. Each material has its own behavior, which is determined by a **cellular automaton**, allowing you to create believable simulations of physical processes.
 
 ## Info
@@ -22,12 +22,13 @@
 - [Ideas](#ideas)
 
 ## Program features
-- 🧱 **Realistic behavior of materials:** sand falls down, water flows, soil mixes.
-- 🎨 **Pixel graphics:** each material has a unique color and appearance.
-- 🖌️ **Brush:** the player can paint with materials on the playing field by changing the size and pressure.
-- 🧠 **Cellular machine:** each cell on the field is updated according to the rules, depending on the type of material and its neighbors.
-- ⏱️ **Optimized simulation:** Using an array of vertexes to render the playing field allows you to immediately draw it in the window.
-- ⚙️ **Scalable architecture:** easy to add new materials or change simulation rules.
+- 🧱 **Realistic behavior of materials** - sand falls down, water flows, soil mixes.
+- 🎨 **Pixel graphics** - each material has a unique color and appearance.
+- 🖌️ **Brush** - the player can paint with materials on the playing field by changing the size and pressure.
+- 🧠 **Cellular machine** - each cell on the field is updated according to the rules, depending on the type of material and its neighbors.
+- ⏱️ **Optimized simulation** - using an array of vertexes to render the playing field allows you to immediately draw it in the window.
+- ⚙️ **Scalable architecture** - easy to add new materials or change simulation rules.
+- 📁 **CMake build automation**.
 
 ## How to Build and Run
 
@@ -129,6 +130,7 @@ make
 - **ESC** - End the game
 
 ## Ideas
+- 📱 GUI
 - 🔥 Fire and explosions
 - 🧊 Temperature effects (melting, evaporation)
 - ⚡ Electricity or logic components
