@@ -14,12 +14,18 @@
 **Languages:** English\
 **Developer:** NikitaByte
 
-## Navigation
+## Navigation 🧭
 - [Info](#info)
 - [Program features](#program-features)
-- [How to Build and Run](#how-to-build-and-run)
-- [Controls](#controls)
-- [Ideas](#ideas)
+- [How to Build and Run](#how-to-build-and-run-)
+  - [Requirements](#-requirements)
+  - [Windows](#-windows)
+  - [Linux](#-linux)
+  - [MacOS](#-macos)
+  - [Cross-Platform](#-cross-platform)
+- [Controls](#controls-)
+- [Ideas](#ideas-)
+- [License](#license-)
 
 ## Program features
 - 🧱 **Realistic behavior of materials** - sand falls down, water flows, soil mixes.
@@ -30,7 +36,7 @@
 - ⚙️ **Scalable architecture** - easy to add new materials or change simulation rules.
 - 📁 **CMake build automation**.
 
-## How to Build and Run
+## How to Build and Run 🔨
 
 ### 📦 Requirements
 - CMake (version 3.8 or higher)
@@ -80,7 +86,7 @@ make
 ./YourExecutable
 ```
 
-### 🍎 macOS
+### 🍎 MacOS
 Using Terminal:
 ```bush
 brew install cmake
@@ -94,7 +100,8 @@ make
 ```
 >[!NOTE]
 > You can also open the project in CLion, which supports CMake natively.
-### 💻 Cross-Platform: Using **VS Code + CMake Tools** Extension
+### 💻 Cross-Platform
+Using **VS Code + CMake Tools** Extension:
 1. Install:
    - [VS Code](https://code.visualstudio.com/)
    - CMake Tools extension
@@ -103,7 +110,7 @@ make
 3. Press `Ctrl + Shift + P` → **CMake: Configure**
 4. Press `F7` to build, `F5` to run/debug
 
-## Controls
+## Controls 🎮
 - Select a material:
   - **1** - Sand
   - **2** - Dirt
@@ -129,10 +136,13 @@ make
 - **Pause** - Pause
 - **ESC** - End the game
 
-## Ideas
+## Ideas 💡
 - 📱 GUI
 - 🔥 Fire and explosions
 - 🧊 Temperature effects (melting, evaporation)
 - ⚡ Electricity or logic components
 - 🌱 Biological materials (herbs, bacteria)
 - 🌪️ Interactive environment: wind, pressure
+
+## License 📜
+Distributed under the MIT License. See `LICENSE` for more information.
