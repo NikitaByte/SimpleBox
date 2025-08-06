@@ -1,6 +1,10 @@
 # SimpleBox (C++ / SFML)
 **SimpleBox** is a 2D sandbox inspired by games like *sand:box* or *The Powder Toy*, where the player can interact with different materials - sand, water, rocks, soil, etc. - in a pixelated world. Each material has its own behavior, which is determined by a **cellular automaton**, allowing you to create believable simulations of physical processes.
 
+[![release](https://img.shields.io/github/v/release/NikitaByte/SimpleBox)](https://github.com/NikitaByte/SimpleBox/releases)
+[![license](https://img.shields.io/github/license/NikitaByte/SimpleBox)](https://github.com/NikitaByte/SimpleBox/blob/main/LICENSE)
+[![code_size](https://img.shields.io/github/languages/code-size/NikitaByte/SimpleBox)](https://github.com/NikitaByte/SimpleBox)
+
 ## Info
 
 **Project name:** SimpleBox\
