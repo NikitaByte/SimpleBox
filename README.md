@@ -27,6 +27,7 @@
   - [Linux](#-linux)
   - [MacOS](#-macos)
   - [Cross-Platform](#-cross-platform)
+- [Project Structure](#project-structure-)
 - [Controls](#controls-)
 - [Ideas](#ideas-)
 - [License](#license-)
@@ -113,6 +114,25 @@ Using **VS Code + CMake Tools** Extension:
 2. Open the project folder in VS Code
 3. Press `Ctrl + Shift + P` → **CMake: Configure**
 4. Press `F7` to build, `F5` to run/debug
+
+## Project Structure 📁
+```
+├── CMakeLists.txt
+├── include                  # Header files
+    ├── Game.h               # Game logic header file
+    ├── MaterialEnums.h      # Enum for materials
+    ├── Materials.h          # Material classes header file
+    └── UIScaler.h           # UIScaler class for GUI
+├── resources                # Project resources
+    ├── fonts/
+    └── images/
+├── src                      # Executable files
+    ├── Game.cpp
+    ├── Main.cpp             # Entry point
+    ├── Materials.cpp
+    └── UIScaler.cpp
+└── uml/                     # Сlass diagram
+```
 
 ## Controls 🎮
 - Select a material:
