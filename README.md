@@ -1,25 +1,31 @@
-# SimpleBox (C++ / SFML)
+<h1 align="center">SimpleBox (C++ / SFML)</h1>
+
+<br>
+<p align="center">
+  <img src="resources/images/logo.png" alt="logo" width="250" >
+</p>
+<br>
+
 **SimpleBox** is a 2D sandbox inspired by games like *sand:box* or *The Powder Toy*, where the player can interact with different materials - sand, water, rocks, soil, etc. - in a pixelated world. Each material has its own behavior, which is determined by a **cellular automaton**, allowing you to create believable simulations of physical processes.
 
-[![release](https://img.shields.io/github/v/release/NikitaByte/SimpleBox)](https://github.com/NikitaByte/SimpleBox/releases)
-[![license](https://img.shields.io/github/license/NikitaByte/SimpleBox)](https://github.com/NikitaByte/SimpleBox/blob/main/LICENSE)
-[![code_size](https://img.shields.io/github/languages/code-size/NikitaByte/SimpleBox)](https://github.com/NikitaByte/SimpleBox)
+<p align="center">
+  <a href="https://github.com/NikitaByte/SimpleBox/releases">
+    <img src="https://img.shields.io/github/v/release/NikitaByte/SimpleBox" alt="release">
+  </a>
+  <a href="https://github.com/NikitaByte/SimpleBox/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/NikitaByte/SimpleBox" alt="license">
+  </a>
+  <a href="https://github.com/NikitaByte/SimpleBox">
+    <img src="https://img.shields.io/github/languages/code-size/NikitaByte/SimpleBox" alt="code_size">
+  </a>
+  <a href="https://img.shields.io/github/languages/top/NikitaByte/SimpleBox">
+    <img src="https://img.shields.io/github/languages/top/NikitaByte/SimpleBox" ald="languages">
+  </a>
+</p>
 
-## Info
-
-**Project name:** SimpleBox\
-**Logo:**\
-<img src="resources/images/logo.png" alt="logo" width="50" >\
-**Version:** 0.1\
-**Programming language:** C++ 17\
-**Libraries:** SFML\
-**Technologies:** CMake, Git\
-**IDE:** Visual Studio 2022\
-**Languages:** English\
-**Developer:** NikitaByte
+<hr>
 
 ## Navigation 🧭
-- [Info](#info)
 - [Program features](#program-features)
 - [How to Build and Run](#how-to-build-and-run-)
   - [Requirements](#-requirements)
@@ -27,10 +33,15 @@
   - [Linux](#-linux)
   - [MacOS](#-macos)
   - [Cross-Platform](#-cross-platform)
+- [Technology stack](#technology-stack-)
 - [Project Structure](#project-structure-)
 - [Controls](#controls-)
 - [Ideas](#ideas-)
 - [License](#license-)
+- [Maintainer](#maintainer)
+- [Contributing](#contributing-)
+
+<hr>
 
 ## Program features
 - 🧱 **Realistic behavior of materials** - sand falls down, water flows, soil mixes.
@@ -40,6 +51,8 @@
 - ⏱️ **Optimized simulation** - using an array of vertexes to render the playing field allows you to immediately draw it in the window.
 - ⚙️ **Scalable architecture** - easy to add new materials or change simulation rules.
 - 📁 **CMake build automation**.
+
+<hr>
 
 ## How to Build and Run 🔨
 
@@ -115,7 +128,17 @@ Using **VS Code + CMake Tools** Extension:
 3. Press `Ctrl + Shift + P` → **CMake: Configure**
 4. Press `F7` to build, `F5` to run/debug
 
-## Project Structure 📁
+<hr>
+
+## Technology stack 🔧
+**Programming language:** C++ 17\
+**Libraries:** SFML\
+**Technologies:** CMake, Git\
+Developed on IDE Visual Studio 2022
+
+<hr>
+
+## Project structure 📁
 ```
 ├── CMakeLists.txt
 ├── include                  # Header files
@@ -133,6 +156,8 @@ Using **VS Code + CMake Tools** Extension:
     └── UIScaler.cpp
 └── uml/                     # Сlass diagram
 ```
+
+<hr>
 
 ## Controls 🎮
 - Select a material:
@@ -160,6 +185,8 @@ Using **VS Code + CMake Tools** Extension:
 - **Pause** - Pause
 - **ESC** - End the game
 
+<hr>
+
 ## Ideas 💡
 - 📱 GUI
 - 🔥 Fire and explosions
@@ -168,5 +195,13 @@ Using **VS Code + CMake Tools** Extension:
 - 🌱 Biological materials (herbs, bacteria)
 - 🌪️ Interactive environment: wind, pressure
 
+<hr>
+
 ## License 📜
 Distributed under the MIT License. See `LICENSE` for more information.
+
+## Maintainer:
+> [Nikita](https://github.com/NikitaByte) | Game developer
+
+## Contributing 🙋‍♂
+Contributions are welcome! Please feel free to submit a Pull Request.
